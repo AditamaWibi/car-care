@@ -129,8 +129,23 @@
   padding: 9.6rem 0;
 }
 
+.one-day-service {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.one-day-service:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.09);
+}
+
 .jasa {
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.09);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
@@ -138,20 +153,52 @@
 
 .jasa:hover {
   transform: translateY(-1.2rem);
-  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
-}
-
-.jasa-content {
-  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.09);
 }
 
 .jasa-img {
-  max-width: 100%;
+  width: 100%;
+  margin-top: 2.4rem;
+}
+
+.jasas-img {
+  width: 100%;
+}
+
+.jasa-content-box {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
 .jasa-title {
   font-size: 2.4rem;
-  color: #000;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+.jasa-content {
+  padding-left: 2.6rem;
+}
+
+.jasa-atributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+.jasa-atribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: #333;
+}
+
+.jasa-icon {
+  height: 2.4rem;
+  width: 2.4rem;
 }
 
 /**************************/
