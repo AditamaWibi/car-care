@@ -134,6 +134,55 @@ body {
   background-color: #4c4c4c;
 }
 
+.btn--form {
+  background-color: #f8f9fa;
+  color: #495057;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #4a4b4b;
+  color: #f8f9fa;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  color: #333;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+  color: #333;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #555;
+}
+
 /* HELPER/SETTING CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem !important;
