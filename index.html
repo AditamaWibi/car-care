@@ -45,15 +45,11 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-
           <li><a class="main-nav-link" href="#jasa">Jasa</a></li>
 
           <li><a class="main-nav-link" href="#">Produk</a></li>
 
           <li><a class="main-nav-link" href="#">Testimoni</a></li>
-
-          <li><a class="main-nav-link" href="#">Promo</a></li>
 
           <li><a class="main-nav-link nav-cta" href="#">Contact Us</a></li>
         </ul>
@@ -66,6 +62,7 @@
     </header>
 
     <main>
+      <!-- SECTION HERO -->
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
@@ -85,6 +82,7 @@
         </div>
       </section>
 
+      <!-- SECTION SERVICES -->
       <section class="section-jasa" id="jasa">
         <div class="container center-text margin-bottom-sm">
           <span class="subheading">Jasa</span>
@@ -256,6 +254,7 @@
         </div>
       </section>
 
+      <!-- SECTION PRODUCT -->
       <section class="section-produk">
         <div class="container margin-bottom-sm">
           <span class="subheading">Produk</span>
@@ -331,7 +330,7 @@
             </div>
           </div>
 
-          <div class="produk produk-1">
+          <div class="produk produk-3">
             <header class="produk-header">
               <p class="produk-name">GPS</p>
               <p class="produk-price"><span>Rp</span>650.000</p>
@@ -370,10 +369,11 @@
         </div>
       </section>
 
+      <!-- SECTION TESTIOMNIALS -->
       <section class="section-testimoni" id="testimoni">
         <div class="testimoni-container">
           <span class="subheading">Testimoni</span>
-          <h2 class="heading-secondary">
+          <h2 class="heading-secondary margin-bottom-sm">
             Beberapa testimoni dari customer kami
           </h2>
 
@@ -420,7 +420,143 @@
                 alt="Foto customer 3"
               />
             </div>
+            <div class="testi-text-box">
+              <h3 class="heading-tertiary">Yanuar</h3>
+              <p class="testi-description">
+                Gak rugi saya pasang kaca film Solargard di Autonetcare,
+                hasilnya rapi dan terjamin garansi resmi. Ada Home Servicenya
+                lagi!!! Kemarin sempat bingung nyari tempat pasang kaca film di
+                Semarang yang terpercaya, tapi untung ada Autonetcare.
+              </p>
+            </div>
           </div>
+        </div>
+      </section>
+
+      <!-- SECTION CTA -->
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your car clean everyday!</h2>
+              <p class="cta-text">
+                You can't come to our workshop? then we will come to you and get
+                your car clean.
+              </p>
+
+              <form class="cta-form" name="contact-us">
+                <div>
+                  <label for="full-name">Full name</label>
+                  <input
+                    name="full-name"
+                    id="full-name"
+                    type="text"
+                    placeholder="Jhon Doe"
+                    required
+                  />
+                </div>
+
+                <div class="margin-bottom-sm">
+                  <label for="email">Email</label>
+                  <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">Contact Us</button>
+              </form>
+            </div>
+
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="A man polishing a car"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footer">
+        <div class="container grid grid--footer">
+          <div class="log-col">
+            <a href="#" class="footer-logo">
+              <img class="logo" alt="logo" src="#" />
+            </a>
+
+            <ul class="social-link">
+              <li>
+                <a class="footer-link" href="#">
+                  <ion-icon
+                    class="social-icon"
+                    name="logo-instagram"
+                  ></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a class="footer-link" href="#"
+                  ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; <span class="year">2027</span> by, Inc. All right
+              reserved.
+            </p>
+          </div>
+
+          <div class="address-col">
+            <p class="footer-heading">Contact Us</p>
+            <address class="contacts">
+              <p class="address">
+                Jl. Indokarta No. 12 Rt 001/Rw 001,Jawa Utara, 12425
+              </p>
+              <p>
+                <a class="footer-link" href="tel:123-456-7890">123-456-7890</a
+                ><br />
+                <a class="footer-link" href="mailto:hello@carcare.com"
+                  >hello@carcare.com</a
+                >
+              </p>
+            </address>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">iOS app</a></li>
+              <li><a class="footer-link" href="#">Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Company</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">About car-care</a></li>
+              <li><a class="footer-link" href="#">For Business</a></li>
+              <li><a class="footer-link" href="#">Careers</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Produk</p>
+            <ul class="footer-nav">
+              <li><a class="footer-link" href="#">Karpet</a></li>
+              <li><a class="footer-link" href="#">BRQ</a></li>
+              <li><a class="footer-link" href="#">GPS</a></li>
+            </ul>
+          </nav>
         </div>
       </section>
     </main>
